@@ -2,7 +2,7 @@
 [![asciicast](https://asciinema.org/a/N5tWNHJFgX9bELgSsjs2JlEe7.svg)](https://asciinema.org/a/N5tWNHJFgX9bELgSsjs2JlEe7)
 
 ### brain-calc:
-[![asciicast](https://asciinema.org/a/bqiEK8JuUb4mEZ87s3chhK2BE.svg)](https://asciinema.org/a/bqiEK8JuUb4mEZ87s3chhK2BE)
+[![asciicast](https://asciinema.org/a/Iqr0SvaIBVCyusPn3I34Yaza2.svg)](https://asciinema.org/a/Iqr0SvaIBVCyusPn3I34Yaza2)
 
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Sam0yl/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/Sam0yl/python-project-49/actions)
