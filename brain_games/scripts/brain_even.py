@@ -2,7 +2,8 @@
 
 from brain_games.cli import welcome_user
 from brain_games.scripts.brain_games import greet
-from brain_games.even_game import game
+from brain_games.game_logic import game
+from brain_games.even_game import even_question, is_even
 
 
 def rules():
@@ -13,7 +14,7 @@ def main():
     greet()
     name = welcome_user()
     rules()
-    game(name)
+    game(even_question, is_even, name)
 
 
 if __name__ == '__main__':
