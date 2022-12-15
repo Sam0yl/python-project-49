@@ -1,8 +1,11 @@
 ### brain-even:
-[![asciicast](https://asciinema.org/a/N5tWNHJFgX9bELgSsjs2JlEe7.svg)](https://asciinema.org/a/N5tWNHJFgX9bELgSsjs2JlEe7)
+[![asciicast](https://asciinema.org/a/QVEeUKeqi7thB5ZvjMfe3JpXx.svg)](https://asciinema.org/a/QVEeUKeqi7thB5ZvjMfe3JpXx)
 
 ### brain-calc:
 [![asciicast](https://asciinema.org/a/Iqr0SvaIBVCyusPn3I34Yaza2.svg)](https://asciinema.org/a/Iqr0SvaIBVCyusPn3I34Yaza2)
+
+### brain-gdc:
+[![asciicast](https://asciinema.org/a/7ceTHuNT3iU65UHKYkZvoGTsw.svg)](https://asciinema.org/a/7ceTHuNT3iU65UHKYkZvoGTsw)
 
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Sam0yl/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/Sam0yl/python-project-49/actions)

@@ -20,9 +20,9 @@ def calc_question():
 def calc_check(string):
     calc_list = string.split()
     if calc_list[1] == '+':
-    	calc_result = int(calc_list[0]) + int(calc_list[2])
+        calc_result = int(calc_list[0]) + int(calc_list[2])
     elif calc_list[1] == '-':
-    	calc_result = int(calc_list[0]) - int(calc_list[2])
+        calc_result = int(calc_list[0]) - int(calc_list[2])
     else:
-    	calc_result = int(calc_list[0]) * int(calc_list[2])
+        calc_result = int(calc_list[0]) * int(calc_list[2])
     return str(calc_result)
