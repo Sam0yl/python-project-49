@@ -3,7 +3,7 @@ import prompt
 
 def text_of_losing(answer, real_answer, name):
     print(f''''{answer}' is wrong answer ;(. Correct answer was '{real_answer}'.
-    Let's try again, {name}!''')
+Let's try again, {name}!''')
 
 
 def text_of_wining(name):

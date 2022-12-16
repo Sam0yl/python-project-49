@@ -10,6 +10,9 @@
 ### brain-progression:
 [![asciicast](https://asciinema.org/a/FQ2x9ioSMYPxb7kwmWcUM9EJo.svg)](https://asciinema.org/a/FQ2x9ioSMYPxb7kwmWcUM9EJo)
 
+### brain-prime:
+[![asciicast](https://asciinema.org/a/i6cPzl49vbc3ccavzIBymGe0a.svg)](https://asciinema.org/a/i6cPzl49vbc3ccavzIBymGe0a)
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Sam0yl/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/Sam0yl/python-project-49/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/2e619e4690692d3c0c73/maintainability)](https://codeclimate.com/github/Sam0yl/python-project-49/maintainability)
