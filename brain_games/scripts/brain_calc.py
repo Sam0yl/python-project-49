@@ -3,7 +3,7 @@
 from brain_games.cli import welcome_user
 from brain_games.scripts.brain_games import greet
 from brain_games.game_logic import game
-from brain_games.games.calc_game import calc_question, calc_check
+from brain_games.games.calc_game import calc_question
 
 
 def rules():
@@ -14,7 +14,7 @@ def main():
     greet()
     name = welcome_user()
     rules()
-    game(calc_question, calc_check, name)
+    game(calc_question, name)
 
 
 if __name__ == '__main__':

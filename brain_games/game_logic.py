@@ -14,12 +14,12 @@ def ask_answer():
     return answer
 
 
-def game(question_func, check_func, name):
+def game(question_func, name):
     answers_count = 0
     while answers_count < 3:
-        question = question_func()
-        correct_answer = check_func(question)
-        print(f'Question: {question}')
+        question_tuple = question_func()
+        correct_answer = question_tuple[1]
+        print(f'Question: {question_tuple[0]}')
         answer = ask_answer()
         if answer == correct_answer:
             print('Correct!')
