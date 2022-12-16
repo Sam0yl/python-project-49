@@ -6,14 +6,12 @@ This is training project of the first study module on hexlet.io
 A collection of command line games called "Brain games"
 
 Command for installing games:
-
-'''
+```
 make setup 
-'''
+```
 
 Commands for launching games:
-
-'''
+```
 brain-even   - launches game about even numbers
 
 brain-cal   - launches game about solving exprassions
@@ -23,7 +21,7 @@ brain-gdc   - launches game about greatest common divisor of given numbers
 brain-progression   - launches game about progressions
 
 brain-prime   - launches game about prime numbers
-'''
+```
 
 ### brain-even:
 [![asciicast](https://asciinema.org/a/QVEeUKeqi7thB5ZvjMfe3JpXx.svg)](https://asciinema.org/a/QVEeUKeqi7thB5ZvjMfe3JpXx)
