@@ -2,6 +2,10 @@ import math
 from random import randint
 
 
+def rules():
+    print('Find the greatest common divisor of given numbers.')
+
+
 def number_choice():
     return randint(1, 100)
 

@@ -1,6 +1,10 @@
 from random import randint
 
 
+def rules():
+    print('What number is missing in the progression?')
+
+
 def create_progression():
     number = randint(1, 50)
     initial_term = randint(1, 10)

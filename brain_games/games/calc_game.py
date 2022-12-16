@@ -1,6 +1,10 @@
 from random import randint, choice
 
 
+def rules():
+    print('What is the result of the exprassion?')
+
+
 def operand_choice():
     return randint(1, 100)
 

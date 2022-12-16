@@ -1,6 +1,10 @@
 from random import randint
 
 
+def rules():
+    print('Answer "yes" if the number is even, otherwise answer "no".')
+
+
 def check_even(number):
     correct_answer = 'no'
     if number % 2 == 0:

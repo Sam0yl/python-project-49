@@ -1,20 +1,11 @@
 #!/usr/bin/env python3
 
-from brain_games.cli import welcome_user
-from brain_games.scripts.brain_games import greet
 from brain_games.game_logic import game
-from brain_games.games.calc_game import calc_question
-
-
-def rules():
-    print('What is the result of the exprassion?')
+from brain_games.games.calc_game import calc_question, rules
 
 
 def main():
-    greet()
-    name = welcome_user()
-    rules()
-    game(calc_question, name)
+    game(calc_question, rules)
 
 
 if __name__ == '__main__':

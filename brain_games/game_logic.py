@@ -1,3 +1,5 @@
+from brain_games.scripts.brain_games import greet
+from brain_games.cli import welcome_user
 import prompt
 
 
@@ -15,7 +17,10 @@ def ask_answer():
     return answer
 
 
-def game(question_func, name):
+def game(question_func, rules):
+    greet()
+    name = welcome_user()
+    rules()
     answers_count = 0
     while answers_count < 3:
         question_tuple = question_func()

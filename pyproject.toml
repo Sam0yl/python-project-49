@@ -4,6 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["Evgeny Samoylov <samoyl@gmail.com>"]
 readme = "README.md"
+repository = "https://github.com/Sam0yl/python-project-49"
 packages = [{include = "brain_games"}]
 
 [tool.poetry.dependencies]
