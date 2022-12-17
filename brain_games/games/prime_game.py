@@ -17,9 +17,9 @@ def is_prime(number):
 
 
 def check_prime(number):
+    correct_answer = 'no'
     if is_prime(number):
         correct_answer = 'yes'
-    correct_answer = 'no'
     return correct_answer
 
 
