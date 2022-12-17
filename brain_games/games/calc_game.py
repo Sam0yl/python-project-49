@@ -2,7 +2,7 @@ from random import randint, choice
 
 
 def rules():
-    print('What is the result of the exprassion?')
+    print('What is the result of the expression?')
 
 
 def operand_choice():
