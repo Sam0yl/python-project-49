@@ -2,15 +2,15 @@
 [![Actions Status](https://github.com/Sam0yl/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/Sam0yl/python-project-49/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/2e619e4690692d3c0c73/maintainability)](https://codeclimate.com/github/Sam0yl/python-project-49/maintainability)
 
-#This is training project of the first study module on hexlet.io
-#A collection of command line games called "Brain games"
+##### This is training project of the first study module on hexlet.io
+##### A collection of command line games called "Brain games"
 
-#Command for installing games:
+##### Command for installing games:
 ```
 make setup 
 ```
 
-#Commands for launching games:
+##### Commands for launching games:
 Game about even numbers
 ```
 brain-even
