@@ -2,12 +2,16 @@ import math
 from random import randint
 
 
-def rules():
+def show_rules():
     print('Find the greatest common divisor of given numbers.')
 
 
+MIN_NUM = 1
+MAX_NUM = 100
+
+
 def number_choice():
-    return randint(1, 100)
+    return randint(MIN_NUM, MAX_NUM)
 
 
 def gcd_check(string):

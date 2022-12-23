@@ -1,12 +1,16 @@
 from random import randint, choice
 
 
-def rules():
+def show_rules():
     print('What is the result of the expression?')
 
 
+MIN_OPERAND = 1
+MAX_OPERAND = 100
+
+
 def operand_choice():
-    return randint(1, 100)
+    return randint(MIN_OPERAND, MAX_OPERAND)
 
 
 def operator_choice():

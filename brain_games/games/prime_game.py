@@ -1,7 +1,7 @@
 from random import randint
 
 
-def rules():
+def show_rules():
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
 
 
@@ -23,8 +23,12 @@ def check_prime(number):
     return correct_answer
 
 
+MIN_NUM = 1
+MAX_NUM = 100
+
+
 def prime_question():
-    question = randint(1, 100)
+    question = randint(MIN_NUM, MAX_NUM)
     correct_answer = check_prime(question)
     question_tuple = (question, correct_answer)
     return question_tuple
