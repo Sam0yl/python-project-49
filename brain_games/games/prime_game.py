@@ -16,19 +16,14 @@ def is_prime(number):
     return True
 
 
-def check_prime(number):
-    correct_answer = 'no'
-    if is_prime(number):
-        correct_answer = 'yes'
-    return correct_answer
-
-
 MIN_NUM = 1
 MAX_NUM = 100
 
 
 def prime_question():
     question = randint(MIN_NUM, MAX_NUM)
-    correct_answer = check_prime(question)
+    correct_answer = 'no'
+    if is_prime(question):
+        correct_answer = 'yes'
     question_tuple = (question, correct_answer)
     return question_tuple
