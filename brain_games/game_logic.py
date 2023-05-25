@@ -3,10 +3,10 @@ from brain_games.cli import welcome_user
 import prompt
 
 
-def game(question_func, show_rules):
+def game(question_func, rules):
     greet()
     name = welcome_user()
-    show_rules()
+    print(rules)
     answers_count = 0
     while answers_count < 3:
         question_tuple = question_func()

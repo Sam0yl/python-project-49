@@ -1,8 +1,7 @@
 from random import randint
 
 
-def show_rules():
-    print('Answer "yes" if the number is even, otherwise answer "no".')
+RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def is_even(number):

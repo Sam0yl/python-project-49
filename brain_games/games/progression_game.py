@@ -1,8 +1,7 @@
 from random import randint
 
 
-def show_rules():
-    print('What number is missing in the progression?')
+RULES = 'What number is missing in the progression?'
 
 
 MIN_NUM = 1
@@ -21,11 +20,14 @@ def random_step_of_progression():
     return randint(MIN_STEP, MAX_STEP)
 
 
+PROGRESSION_LENGTH = 10
+
+
 def create_progression():
     number = random_first_number_of_progression()
     step_of_progression = random_step_of_progression()
     progression_list = []
-    list_length = 10
+    list_length = PROGRESSION_LENGTH
     while list_length > 0:
         progression_list.append(str(number))
         number += step_of_progression

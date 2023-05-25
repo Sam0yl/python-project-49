@@ -2,8 +2,7 @@ import math
 from random import randint
 
 
-def show_rules():
-    print('Find the greatest common divisor of given numbers.')
+RULES = 'Find the greatest common divisor of given numbers.'
 
 
 MIN_NUM = 1
